@@ -1,0 +1,48 @@
+.alert-zone {
+    padding: 24px;
+    background-color: rgba(208, 59, 59, 0.1);
+    border-left: 4px solid var(--alert-red);
+    margin-bottom: 24px;
+}
+
+.alert-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.alert-icon {
+    font-size: 18px;
+}
+
+.alert-header h2 {
+    color: var(--alert-red);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    font-family: var(--font-body);
+    font-weight: 600;
+}
+
+.alert-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.alert-item {
+    display: flex;
+    gap: 16px;
+}
+
+.alert-time {
+    color: var(--alert-red);
+    font-size: 14px;
+}
+
+.alert-msg {
+    color: var(--text-primary);
+    font-size: 14px;
+}

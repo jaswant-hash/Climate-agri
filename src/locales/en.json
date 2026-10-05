@@ -1,0 +1,195 @@
+{
+  "app": {
+    "logo": "AgriClimate"
+  },
+  "menu": {
+    "dashboard": "Dashboard",
+    "climateAnalytics": "Climate Analytics",
+    "aiPrediction": "AI Prediction & XAI",
+    "advisory": "Agri Advisory",
+    "simulation": "Simulation",
+    "history": "History",
+    "settings": "Settings"
+  },
+  "header": {
+    "searchPlaceholder": "Search cities, regions, or metrics..."
+  },
+  "regions": {
+    "global": "Global Average",
+    "northAmerica": "North America",
+    "southAsia": "South Asia",
+    "europe": "Europe",
+    "tamilNadu": "Tamil Nadu, India",
+    "california": "California, USA",
+    "saoPaulo": "São Paulo, Brazil"
+  },
+  "dashboard": {
+    "title": "Agricultural Performance",
+    "subtitle": "AI Powered Weather Prediction & Simulation",
+    "filters": {
+      "12m": "12 Months",
+      "5y": "5 Years",
+      "ytd": "YTD"
+    },
+    "kpi1": {
+      "title": "Avg. Temp Anomaly",
+      "trend": "0.4°C vs last decade"
+    },
+    "kpi2": {
+      "title": "Annual Precipitation",
+      "trend": "-12% expected"
+    },
+    "kpi3": {
+      "title": "Soil Moisture Index",
+      "trend": "Critical levels in Q3"
+    },
+    "kpi4": {
+      "title": "Overall Yield Risk",
+      "value": "High",
+      "trend": "Affecting primary crops"
+    },
+    "insights": {
+      "title": "Key Observations",
+      "droughtTitle": "Drought Risk",
+      "droughtDesc": "Analysis indicates a probability of reduced rainfall in the mid-western region during Q3.",
+      "rotationTitle": "Crop Rotation",
+      "rotationDesc": "Consider introducing drought-resistant soy variants for the upcoming planting season."
+    },
+    "highlight": {
+      "title": "Regional Readiness",
+      "desc": "Current infrastructure is moderately prepared for upcoming seasonal shifts. Priority action recommended for irrigation systems.",
+      "btn": "View Detailed Report"
+    },
+    "inDev": "Module in Development"
+  },
+  "analytics": {
+    "title": "Climate Analytics",
+    "subtitle": "Historical trends and seasonal comparisons",
+    "trendTemp": "Temperature Trend",
+    "trendRain": "Rainfall Trend",
+    "trendHumidity": "Humidity Trend",
+    "trendWind": "Wind Speed Trend",
+    "seasonalComp": "Seasonal Comparison",
+    "summaryTitle": "Climate Summary",
+    "sum1Title": "Monsoon Shift:",
+    "sum1Desc": "Rainfall peaks have shifted 15 days later compared to the 5-year average, heavily impacting planting schedules.",
+    "sum2Title": "Heat Waves:",
+    "sum2Desc": "Summer temperatures sustained above 34°C for 22 consecutive days, increasing irrigation demands by 40%.",
+    "sum3Title": "Wind Variability:",
+    "sum3Desc": "High wind speeds during transition months pose a moderate risk to tall crops."
+  },
+  "advisory": {
+    "title": "Agricultural Advisory",
+    "subtitle": "AI-driven actionable insights for farming",
+    "btnExport": "Export Report",
+    "cropTitle": "Crop Recommendations",
+    "cropSub": "Based on current climate models",
+    "cropMatch": "Match",
+    "cropSeason": "Ideal Season",
+    "crops": {
+      "c1": "Drought-Resistant Sorghum",
+      "c1Season": "Kharif (Monsoon)",
+      "c2": "Pearl Millet (Bajra)",
+      "c2Season": "Summer",
+      "c3": "Chickpea",
+      "c3Season": "Rabi (Winter)"
+    },
+    "riskTitle": "Environmental Risks",
+    "riskSub": "30-day forecast probability",
+    "riskAlert": "Critical Alert:",
+    "riskAlertDesc": "Prolonged heat stress expected in week 3. Ensure backup irrigation systems are operational.",
+    "risks": {
+      "drought": "Drought Risk",
+      "flood": "Flood Risk",
+      "heat": "Heat Stress",
+      "high": "High",
+      "low": "Low",
+      "critical": "Critical"
+    },
+    "aiTitle": "AI Farming Advice",
+    "aiPlanting": "Best Planting Time",
+    "aiPlantingDesc": "Delay sowing of Kharif crops by 12-15 days due to the predicted late onset of monsoon showers. Targeting the 3rd week of June will yield optimal germination rates.",
+    "aiIrrigation": "Irrigation Strategy",
+    "aiIrrigationDesc": "Implement drip irrigation immediately. Due to high evaporation rates (Heat Stress: 92%), water application should be restricted strictly to pre-dawn hours (4:00 AM - 6:00 AM).",
+    "actionTitle": "Action Plan Timeline",
+    "actionImm": "Immediate (Next 7 Days)",
+    "actionImm1": "Inspect and clean drip irrigation filters.",
+    "actionImm2": "Procure drought-resistant Sorghum seeds.",
+    "actionShort": "Short Term (Next 30 Days)",
+    "actionShort1": "Apply pre-sowing soil moisture treatments.",
+    "actionShort2": "Monitor top-soil temperature daily.",
+    "actionLong": "Long Term (Next 90 Days)",
+    "actionLong1": "Evaluate crop rotation success.",
+    "actionLong2": "Prepare for late-stage monsoon harvesting."
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your application preferences",
+    "langTitle": "Application Language",
+    "langDesc": "Select your preferred language for the interface."
+  },
+  "aiPrediction": {
+    "title": "AI Prediction & Explainable AI",
+    "subtitle": "Forecast future climate conditions and AI reasoning",
+    "forecastTitle": "Weather Prediction",
+    "tabs": {
+      "day": "Next Day",
+      "week": "Next Week",
+      "season": "Seasonal"
+    },
+    "metrics": {
+      "rain": "Rain Probability",
+      "temp": "Temperature",
+      "humidity": "Humidity",
+      "wind": "Wind Speed"
+    },
+    "xaiTitle": "Explainable AI (Why?)",
+    "xaiSub": "Model reasoning for the current forecast",
+    "xaiReason1Title": "El Niño Influence",
+    "xaiReason1Desc": "Historical matching with 2016 patterns indicates a 85% confidence in reduced rainfall.",
+    "xaiReason2Title": "Pressure Drop Detected",
+    "xaiReason2Desc": "A sudden 4hPa drop in barometric pressure triggers the high wind probability.",
+    "stressTitle": "Crop Stress Prediction",
+    "stressSub": "Anticipated impact on local agriculture",
+    "stressWater": "Water Stress",
+    "stressThermal": "Thermal Stress"
+  },
+  "chatbot": {
+    "title": "Agri AI Assistant",
+    "status": "Online",
+    "placeholder": "Ask a farming question...",
+    "welcome": "Hello! I am your AI farming assistant. How can I help you today with your crops or weather planning?",
+    "responses": {
+      "heat": "Based on the current 92% Heat Stress risk, I recommend delaying your sowing by 12-15 days and using pre-dawn drip irrigation.",
+      "rain": "Our models predict a 20% deficit in rainfall for the upcoming monsoon. Ensure your rainwater harvesting systems are ready.",
+      "crop": "For this season, I highly recommend planting Drought-Resistant Sorghum, as it has a 92% viability match with our climate forecasts.",
+      "fallback": "I'm analyzing the data, but I don't have a specific answer for that yet. Try asking me about 'rain', 'temperature', or 'crops'!"
+    }
+  },
+  "login": {
+    "title": "AgriClimate Dashboard",
+    "signInSub": "Welcome back! Sign in to continue",
+    "signUpSub": "Create your account to get started",
+    "signInTab": "Sign In",
+    "signUpTab": "Sign Up",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "btnSignIn": "Sign In",
+    "btnSignUp": "Create Account",
+    "noAccount": "Don't have an account? ",
+    "hasAccount": "Already have an account? ",
+    "namePlaceholder": "John Farmer",
+    "emailPlaceholder": "farmer@example.com",
+    "pwPlaceholderSignUp": "Min. 6 characters",
+    "pwPlaceholderConfirm": "Re-enter password",
+    "errEmail": "Enter a valid email address.",
+    "errPassword": "Password must be at least 6 characters.",
+    "errName": "Please enter your name.",
+    "errMatch": "Passwords do not match.",
+    "errServer": "Cannot reach the server.",
+    "errDefault": "Something went wrong.",
+    "successSignup": "Account created! Signing you in…"
+  }
+}

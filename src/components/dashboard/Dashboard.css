@@ -1,0 +1,160 @@
+/* src/components/dashboard/Dashboard.css */
+
+/* ── Live indicator ─────────────────────────────────────── */
+.live-indicator {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+.live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+  box-shadow: 0 0 0 0 rgba(34,197,94,0.6);
+  animation: livePulse 2s ease-in-out infinite;
+}
+@keyframes livePulse {
+  0%   { box-shadow: 0 0 0 0   rgba(34,197,94,0.6); }
+  70%  { box-shadow: 0 0 0 8px rgba(34,197,94,0);   }
+  100% { box-shadow: 0 0 0 0   rgba(34,197,94,0);   }
+}
+
+/* ── Refresh button ─────────────────────────────────────── */
+.refresh-btn {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 6px 8px;
+  cursor: pointer;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  transition: all 0.2s;
+}
+.refresh-btn:hover {
+  background: var(--bg-card);
+  color: var(--text-primary);
+  transform: rotate(30deg);
+}
+
+/* ── Risk badge ─────────────────────────────────────────── */
+.risk-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.risk-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+/* ── Error banner ───────────────────────────────────────── */
+.error-banner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  border: 1px solid rgba(239,68,68,0.3);
+  border-radius: 10px;
+  padding: 12px 18px;
+  color: #f87171;
+  font-size: 0.88rem;
+  margin-bottom: 20px;
+}
+.error-banner .material-symbols-rounded { font-size: 20px; }
+.error-banner button {
+  margin-left: auto;
+  background: rgba(239,68,68,0.2);
+  border: none;
+  border-radius: 6px;
+  padding: 4px 14px;
+  color: #f87171;
+  cursor: pointer;
+  font-size: 0.82rem;
+}
+.error-banner button:hover { background: rgba(239,68,68,0.35); }
+
+/* ── Dynamic KPI card extras ────────────────────────────── */
+.dyn-kpi {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.dyn-kpi:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+}
+.kpi-loading .kpi-value {
+  animation: kpiPulse 1.4s ease-in-out infinite;
+}
+@keyframes kpiPulse {
+  0%, 100% { opacity: 0.5; }
+  50%       { opacity: 1;   }
+}
+
+/* ── Skeleton loaders ───────────────────────────────────── */
+.skel {
+  background: linear-gradient(90deg, var(--bg-card) 25%, var(--bg-surface) 50%, var(--bg-card) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s infinite;
+  border-radius: 6px;
+}
+@keyframes shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+.skel-icon  { width: 42px; height: 42px; border-radius: 10px; flex-shrink: 0; }
+.skel-line  { height: 12px; margin-bottom: 8px; width: 100%; }
+.skel-line.short { width: 60%; }
+.skel-ring  { width: 110px; height: 110px; border-radius: 50%; margin: 12px auto; }
+.skeleton-insight { opacity: 0.6; pointer-events: none; }
+
+/* ── Readiness ring ─────────────────────────────────────── */
+.readiness-ring-wrap {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  margin: 8px auto 0;
+}
+.readiness-ring-label {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2px;
+}
+.score-value {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1;
+}
+.score-max {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ── Fetched-at label ───────────────────────────────────── */
+.fetched-at {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-top: 12px;
+}
+
+/* ── Trend success color ────────────────────────────────── */
+.kpi-trend.success {
+  color: #22c55e;
+}

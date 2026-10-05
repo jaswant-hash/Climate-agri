@@ -1,0 +1,44 @@
+Crop,Scientific_Name,Category,Kc_ini,Kc_dev,Kc_mid,Kc_end,Stage_ini_days,Stage_dev_days,Stage_mid_days,Stage_late_days,Total_Growing_Period_days,Notes,Source
+Rice (Paddy),Oryza sativa,Cereal,1.05,1.10,1.20,0.75,30,30,60,30,120-150,Standing water; Kc_ini includes ponding evaporation,FAO-56 Table 12
+Wheat,Triticum aestivum,Cereal,0.30,0.75,1.15,0.30,20,25,50,30,110-130,Winter crop; low Kc_end due to dry maturity,FAO-56 Table 12
+Maize (Grain),Zea mays,Cereal,0.30,0.75,1.20,0.35,20,35,40,30,90-100,High water demand at silking/tasseling stage,FAO-56 Table 12
+Sorghum,Sorghum bicolor,Cereal,0.30,0.70,1.10,0.55,20,35,40,30,100-110,Drought-tolerant; lower Kc_mid than maize,FAO-56 Table 12
+Pearl Millet,Pennisetum glaucum,Cereal,0.30,0.65,1.00,0.40,15,25,30,15,80-90,Short duration; very drought-tolerant,FAO-56 Table 12; TNAU
+Finger Millet,Eleusine coracana,Cereal,0.30,0.65,1.05,0.45,15,30,40,20,100-115,Similar to sorghum Kc pattern,FAO-56 Table 12; ICAR
+Barley,Hordeum vulgare,Cereal,0.30,0.75,1.15,0.25,20,25,50,30,110-130,Very similar to wheat; low Kc_end,FAO-56 Table 12
+Black Gram,Vigna mungo,Pulse,0.40,0.70,1.05,0.35,15,20,30,20,70-85,Short-duration legume,FAO-56 Table 12; TNAU
+Green Gram,Vigna radiata,Pulse,0.40,0.70,1.00,0.30,10,20,25,15,60-70,Very short duration; minimal late-stage water,FAO-56 Table 12; TNAU
+Red Gram,Cajanus cajan,Pulse,0.35,0.70,1.05,0.40,25,40,55,40,150-160,Long-duration; deep rooted; moderate Kc,FAO-56 Table 12; ICAR
+Chickpea,Cicer arietinum,Pulse,0.40,0.70,1.00,0.35,20,25,25,15,85-100,Cool-season crop; minimal irrigation in rabi,FAO-56 Table 12
+Cowpea,Vigna unguiculata,Pulse,0.40,0.70,1.05,0.35,15,25,30,15,70-90,Short-duration; tropical legume,FAO-56 Table 12
+Horse Gram,Macrotyloma uniflorum,Pulse,0.35,0.65,0.95,0.35,15,25,40,25,100-110,Very drought-hardy; minimal water needed,FAO-56 Table 12; ICAR
+Groundnut,Arachis hypogaea,Oilseed,0.40,0.75,1.15,0.60,20,30,40,25,105-120,High Kc_end due to pod-filling water need,FAO-56 Table 12
+Sesame,Sesamum indicum,Oilseed,0.35,0.65,1.10,0.25,15,25,35,15,80-90,Short-duration; drought-tolerant oilseed,FAO-56 Table 12; TNAU
+Sunflower,Helianthus annuus,Oilseed,0.35,0.75,1.10,0.35,20,30,30,15,90-100,Head formation needs adequate water,FAO-56 Table 12
+Mustard,Brassica juncea,Oilseed,0.35,0.75,1.15,0.25,20,30,30,20,100-130,Cool-season; similar to rapeseed Kc values,FAO-56 Table 12
+Soybean,Glycine max,Oilseed,0.40,0.75,1.15,0.50,15,25,40,20,90-100,Moderate water demand; N-fixing crop,FAO-56 Table 12
+Castor,Ricinus communis,Oilseed,0.35,0.70,1.10,0.50,25,40,55,30,140-170,Long-duration; deep tap root reduces need,FAO-56 Table 12; TNAU
+Cotton,Gossypium hirsutum,Commercial,0.35,0.75,1.20,0.50,30,50,55,40,150-175,Peak water at flowering-boll development,FAO-56 Table 12
+Sugarcane,Saccharum officinarum,Commercial,0.40,0.80,1.25,0.75,35,60,180,60,330-365,Very long duration; high Kc_mid for 6 months,FAO-56 Table 12
+Tea,Camellia sinensis,Commercial,0.95,1.00,1.00,1.00,0,0,365,0,Perennial,Evergreen; near-constant Kc; shade grown,FAO-56 Table 12; UPASI
+Coffee,Coffea arabica,Commercial,0.90,0.95,0.95,0.95,0,0,365,0,Perennial,Evergreen; shade-grown; uniform Kc,FAO-56 Table 12; ICAR-CCRI
+Rubber,Hevea brasiliensis,Commercial,0.95,1.00,1.00,1.00,0,0,365,0,Perennial,Evergreen; minimal seasonal variation,FAO-56 Table 12; RRII
+Tobacco,Nicotiana tabacum,Commercial,0.35,0.75,1.10,0.90,20,30,40,25,100-115,High Kc_end maintained for leaf quality,FAO-56 Table 12
+Tomato,Solanum lycopersicum,Vegetable,0.60,0.85,1.15,0.70,25,30,40,25,120-130,Consistent moisture critical; BER if stressed,FAO-56 Table 12
+Onion (Dry),Allium cepa,Vegetable,0.70,0.85,1.05,0.75,15,25,50,30,90-120,High Kc_ini due to shallow roots; stop water before harvest,FAO-56 Table 12
+Brinjal (Eggplant),Solanum melongena,Vegetable,0.60,0.80,1.05,0.90,25,35,50,25,120-140,Long harvest period; maintain Kc_end,FAO-56 Table 12
+Chilli (Pepper),Capsicum annuum,Vegetable,0.60,0.80,1.05,0.90,25,35,50,30,140-150,Continuous fruiting; sustained water demand,FAO-56 Table 12
+Potato,Solanum tuberosum,Vegetable,0.50,0.80,1.15,0.75,20,25,35,20,90-100,Tuber bulking is peak water stage,FAO-56 Table 12
+Cabbage,Brassica oleracea var. capitata,Vegetable,0.70,0.85,1.05,0.95,15,25,35,20,90-100,Cool-season; high Kc_end for head weight,FAO-56 Table 12
+Cauliflower,Brassica oleracea var. botrytis,Vegetable,0.70,0.85,1.05,0.95,15,25,35,20,90-105,Curd development needs consistent moisture,FAO-56 Table 12
+Okra,Abelmoschus esculentus,Vegetable,0.60,0.80,1.00,0.85,10,20,25,15,45-70,Multiple pickings; short high-demand phase,FAO-56 Table 12; TNAU
+Garlic,Allium sativum,Vegetable,0.70,0.85,1.00,0.70,20,30,50,30,130-150,Similar to onion; stop irrigation 2 weeks before harvest,FAO-56 Table 12
+Banana,Musa spp.,Fruit,0.50,0.80,1.10,1.00,60,90,120,90,300-365,High Kc maintained through fruiting; no senescence drop,FAO-56 Table 12
+Mango,Mangifera indica,Fruit,0.50,0.65,0.85,0.70,0,0,365,0,Perennial,Deciduous flushes; dry spell before flowering beneficial,FAO-56 Table 12; ICAR
+Papaya,Carica papaya,Fruit,0.45,0.75,1.00,0.85,30,60,120,60,270-300,Continuous fruiting once mature; moderate Kc,FAO-56 Table 12
+Coconut,Cocos nucifera,Fruit,0.85,0.90,1.00,1.00,0,0,365,0,Perennial,Evergreen; stable Kc; moisture critical for nut development,FAO-56 Table 12; CPCRI
+Guava,Psidium guajava,Fruit,0.50,0.65,0.80,0.70,0,0,365,0,Perennial,Deciduous flushes; water stress for bahar treatment,FAO-56 Table 12; ICAR
+Turmeric,Curcuma longa,Spice,0.50,0.80,1.10,0.70,30,60,100,50,240-270,Rhizome crop; high water during grand growth,FAO-56 Table 12; ICAR-IISR
+Ginger,Zingiber officinale,Spice,0.50,0.80,1.05,0.70,25,55,100,50,210-230,Similar to turmeric; shade reduces ET,FAO-56 Table 12; ICAR-IISR
+Linseed,Linum usitatissimum,Oilseed,0.35,0.70,1.10,0.25,20,30,40,25,100-115,Cool-season oilseed; minimal late water,FAO-56 Table 12
+Sunhemp,Crotalaria juncea,Green Manure,0.40,0.70,1.00,0.90,10,20,30,15,65-75,Green manure; incorporated before maturity,FAO-56 Table 12; TNAU

@@ -1,0 +1,91 @@
+.timeline-container {
+    padding: 24px 0;
+    background-color: var(--surface-main);
+    border: 1px solid var(--storm-gray);
+    overflow: hidden;
+}
+
+.timeline-header {
+    padding: 0 24px 16px;
+    border-bottom: 1px solid var(--storm-gray);
+}
+
+.timeline-header h2 {
+    color: var(--text-secondary);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    font-family: var(--font-body);
+}
+
+.timeline-scroll-area {
+    display: flex;
+    overflow-x: auto;
+    padding: 24px;
+    gap: 16px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--storm-gray) var(--bg-main);
+}
+
+.timeline-scroll-area::-webkit-scrollbar {
+    height: 6px;
+}
+
+.timeline-scroll-area::-webkit-scrollbar-track {
+    background: var(--bg-main);
+}
+
+.timeline-scroll-area::-webkit-scrollbar-thumb {
+    background-color: var(--storm-gray);
+}
+
+.timeline-card {
+    min-width: 140px;
+    padding: 16px;
+    background-color: var(--bg-main);
+    border: 1px solid var(--muted-slate);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.day-name {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--text-primary);
+}
+
+.day-temp {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.high {
+    font-size: 20px;
+    color: var(--text-primary);
+}
+
+.low {
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+.micro-chart {
+    height: 40px;
+    width: 100%;
+    margin: 8px 0;
+}
+
+.sparkline {
+    width: 100%;
+    height: 100%;
+}
+
+.day-condition {
+    font-size: 12px;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+}

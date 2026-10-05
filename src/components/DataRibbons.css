@@ -1,0 +1,75 @@
+.data-ribbons-container {
+    padding: 24px;
+    background-color: var(--surface-main);
+    border: 1px solid var(--storm-gray);
+}
+
+.ribbons-header h2 {
+    color: var(--text-secondary);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+    font-family: var(--font-body);
+}
+
+.hourly-blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hourly-block {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.hour-label {
+    width: 60px;
+    font-size: 14px;
+    color: var(--text-primary);
+    padding-top: 2px;
+}
+
+.hourly-data-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.data-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.data-label {
+    width: 50px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+}
+
+.data-bar-container {
+    flex: 1;
+    height: 4px;
+    background-color: var(--bg-main);
+}
+
+.data-bar {
+    height: 100%;
+    background-color: var(--storm-gray);
+}
+
+.data-bar.precip {
+    background-color: var(--sky-blue);
+}
+
+.data-val {
+    width: 60px;
+    text-align: right;
+    font-size: 12px;
+    color: var(--text-primary);
+}

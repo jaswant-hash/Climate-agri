@@ -1,0 +1,153 @@
+Crop,Stage_Index,Stage_Name,Stage_Emoji,Start_Day,End_Day,Critical_Factor,Notes
+Wheat,1,Germination,🌱,0,8,Soil moisture 60-70% FC,Needs 20-25 cm moist seedbed
+Wheat,2,Seedling,🌿,8,25,Temperature 10-20°C,Crown root initiation
+Wheat,3,Tillering,🌾,25,50,N availability,Number of productive tillers determined
+Wheat,4,Jointing,🌾,50,70,No frost; adequate P,Stem elongation; frost-sensitive
+Wheat,5,Heading,🌸,70,85,Temperature 20-25°C,Ear emergence; warm and dry best
+Wheat,6,Grain Fill,🌾,85,100,Temperature 15-25°C,Assimilate to grain; avoid heat stress
+Wheat,7,Maturity,🌾,100,110,Low humidity low rain,Rapid drying; combine harvest window
+Maize,1,Germination,🌱,0,7,Soil temp > 12°C,Seeds need warm moist soil
+Maize,2,Seedling,🌿,7,20,Weed competition low,V2 stage; shallow root system
+Maize,3,Vegetative,🌿,20,50,N uptake high,V6-V12; rapid height increase
+Maize,4,Tasseling,🌸,50,65,Temperature 25-30°C,Pollen shed; most critical moisture stage
+Maize,5,Silking,🌸,65,75,Adequate moisture,Fertilization window: 5-8 days
+Maize,6,Grain Filling,🌾,75,90,Solar radiation; K,Rapid dry matter accumulation
+Maize,7,Maturity,🌾,90,95,Dry warm weather,Black layer formation at kernel base
+Sorghum,1,Germination,🌱,0,8,Soil temp > 18°C,Emergence takes 3-10 days
+Sorghum,2,Seedling,🌿,8,20,Avoid waterlogging,Root system establishment
+Sorghum,3,Vegetative,🌿,20,50,Adequate N,Leaf area expansion; tiller production
+Sorghum,4,Panicle Initiation,🌾,50,65,Temperature 26-30°C,Photo/thermo-period sensitive
+Sorghum,5,Flowering,🌸,65,80,Dry and sunny,Pollen viability sensitive to humidity
+Sorghum,6,Grain Filling,🌾,80,100,Cool nights (< 28°C),Starch synthesis; avoid frost
+Sorghum,7,Maturity,🌾,100,110,Hot dry weather,Hard dough stage; harvest at 15% MC
+Pearl Millet,1,Germination,🌱,0,5,Soil temp > 25°C,Very rapid; 3-5 days
+Pearl Millet,2,Seedling,🌿,5,18,Soil moisture,Sensitive to crust formation
+Pearl Millet,3,Vegetative,🌿,18,45,Adequate N,Rapid leaf growth; drought tolerant
+Pearl Millet,4,Panicle,🌾,45,58,Temperature 28-32°C,Elongation of panicle
+Pearl Millet,5,Flowering,🌸,58,70,Dry weather preferred,Pollen shed; humidity can reduce set
+Pearl Millet,6,Grain Fill,🌾,70,82,Solar radiation,Rapid starch fill
+Pearl Millet,7,Maturity,🌾,82,85,Warm dry weather,Harvest at hard dough stage
+Finger Millet,1,Germination,🌱,0,8,Adequate moisture,Slow germination
+Finger Millet,2,Seedling,🌿,8,22,Warm days,Nursery stage often used
+Finger Millet,3,Vegetative,🌿,22,55,N fertilization,Tillering intensive
+Finger Millet,4,Inflorescence,🌾,55,75,Temperature 25-28°C,Finger initiation; drought sensitive
+Finger Millet,5,Flowering,🌸,75,90,Low humidity,Pollination; open flowers
+Finger Millet,6,Grain Fill,🌾,90,100,Adequate moisture,Accumulation of ragi starch
+Finger Millet,7,Maturity,🌾,100,105,Dry sunny weather,Harvest when fingers turn brown
+Barley,1,Germination,🌱,0,8,Soil temp 4-15°C,Cool season crop; early emergence
+Barley,2,Seedling,🌿,8,25,No waterlogging,Vulnerable seedling stage
+Barley,3,Tillering,🌾,25,50,Low N for quality,Malt barley: avoid excess N
+Barley,4,Jointing,🌾,50,68,No frost,Stem hollow; very frost sensitive
+Barley,5,Heading,🌸,68,85,Dry sunny days,Awn visible; pollen shed
+Barley,6,Grain Fill,🌾,85,100,Temperature 20-25°C,Shrunken grain if too hot
+Barley,7,Maturity,🌾,100,110,Dry conditions,Low moisture for storage quality
+Chickpea,1,Germination,🌱,0,8,Soil temp 10-15°C,Cool germination preferred
+Chickpea,2,Seedling,🌿,8,22,Avoid wet soil,Sensitive to Fusarium at seedling
+Chickpea,3,Vegetative,🌿,22,45,P availability,Leaf area development
+Chickpea,4,Flowering,🌸,45,65,Temperature 15-20°C,Cool temp required; hot causes flower drop
+Chickpea,5,Pod Development,🌾,65,85,Dry weather,Rainy weather causes botrytis
+Chickpea,6,Maturity,🌾,85,100,Warm and dry,Mechanical harvest at 14% MC
+Sugarcane,1,Germination,🌱,0,35,Soil temp > 25°C moisture,Sett germination
+Sugarcane,2,Tillering,🌿,35,120,N K availability,Productive tiller formation
+Sugarcane,3,Grand Growth,🌿,120,270,High water + N,Rapid stalk elongation; max growth
+Sugarcane,4,Ripening,🌾,270,330,Cool dry weather,Sucrose accumulation; reduce water
+Tomato,1,Germination,🌱,0,8,Soil temp 22-26°C,Nursery; covered beds
+Tomato,2,Seedling,🌿,8,25,Adequate water light,Harden off before transplant
+Tomato,3,Transplant Establishment,🌿,25,45,Root growth,Stake/cage at transplant
+Tomato,4,Vegetative,🌿,45,65,N K,Side dress N at 45d
+Tomato,5,Flowering,🌸,65,85,Temperature 18-26°C,Hot nights (>22°C) drop flowers
+Tomato,6,Fruiting,🌾,85,115,Consistent moisture,BER if Ca/water stress
+Tomato,7,Harvest,🌾,115,130,Low humidity,Multiple picks; ethylene ripening
+Onion,1,Germination,🌱,0,8,Soil temp 10-30°C,Direct sow or nursery
+Onion,2,Seedling,🌿,8,25,Adequate water,Thin wiry seedlings
+Onion,3,Transplant Establishment,🌿,25,45,Good root contact,Bulb initiation influenced by day length
+Onion,4,Leaf Growth,🌿,45,75,N availability,Green leaves fuel bulb
+Onion,5,Bulb Initiation,🌾,75,95,Day length > 12 hrs,Short-day vs long-day varieties
+Onion,6,Bulb Enlargement,🌾,95,110,Adequate K water,K promotes bulb size and skin
+Onion,7,Maturity,🌾,110,120,Dry conditions,Tops fall over; cure 2 weeks
+Potato,1,Germination,🌱,0,10,Soil temp 8-18°C,Seed tuber sprouting
+Potato,2,Emergence,🌿,10,20,Adequate moisture,Haulm development
+Potato,3,Vegetative,🌿,20,40,N K availability,Canopy establishment
+Potato,4,Tuber Initiation,🌾,40,60,Soil temp < 20°C,Cool nights essential; stolon tip swells
+Potato,5,Tuber Bulking,🌾,60,85,Consistent moisture,Bulk of yield; avoid water stress
+Potato,6,Maturation,🌾,85,100,Dry conditions,Vine kill; skin set
+Banana,1,Sucker Establishment,🌱,0,60,Adequate water warmth,Sword sucker planted; root growth
+Banana,2,Vegetative,🌿,60,180,High N water,Rapid leaf area growth; 30-32 leaves
+Banana,3,Bunch Initiation,🌸,180,270,N P K,Inflorescence differentiation
+Banana,4,Flowering,🌸,270,310,Adequate water,Flag leaf emergence; bell drop
+Banana,5,Fruit Development,🌾,310,345,High K water,Finger filling; bunch covered
+Banana,6,Harvest,🌾,345,360,Low humidity,>75% maturity; cut bunch
+Mango,1,Vegetative Flush,🌿,0,60,Warm temp N,New flushes of growth
+Mango,2,Flower Initiation,🌸,60,90,Cool dry (18-22°C),Cool nights trigger bud differentiation
+Mango,3,Flowering,🌸,90,150,Dry sunny weather,Open flowers; rain causes fungal issues
+Mango,4,Fruit Set,🌾,150,180,No rain nor frost,Small fruit development
+Mango,5,Fruit Development,🌾,180,270,Adequate water K,Pulp and size increase
+Mango,6,Harvest,🌾,270,330,Low humidity,Apr-Aug depending on variety
+Papaya,1,Seed Germination,🌱,0,25,Temp 22-32°C moisture,Germination in 2-3 weeks
+Papaya,2,Nursery,🌿,25,75,Adequate water light,Polybag seedlings
+Papaya,3,Transplant Establishment,🌿,75,120,No waterlogging,Very sensitive to Phytophthora
+Papaya,4,Vegetative,🌿,120,180,High N water,Rapid trunk growth
+Papaya,5,Flowering,🌸,180,220,Temperature 25-28°C,Gender visible; sex expression
+Papaya,6,Fruiting,🌾,220,285,Consistent water K,Fruit develops; high K increases quality
+Papaya,7,Harvest,🌾,285,300,Mature when yellow patches,Multiple harvests continuously
+Coconut,1,Nursery,🌱,0,365,Sandy moist soil,Seed nut germination and nursery growth
+Coconut,2,Juvenile,🌿,365,2190,High K Ca water,Crown establishment; no flowers
+Coconut,3,Bearing,🌾,2190,2920,High K fertilizer water,Continuous monthly bunch harvest
+Tea,1,Nursery,🌱,0,180,High humidity acidic soil,Rooted cuttings or seedlings
+Tea,2,Young Tea,🌿,180,720,Shade N,Establishment pruning
+Tea,3,Productive,🌾,720,1825,Frequent plucking high N,Two leaves and a bud every 7-14 days
+Coffee,1,Nursery,🌱,0,365,Partial shade humid,Seedling or vegetative propagation
+Coffee,2,Establishment,🌿,365,730,Shade N P K,Canopy development; pruning
+Coffee,3,Bearing,🌾,730,1460,Regular K harvesting,Cherry develops 9 months after flower
+Rubber,1,Nursery,🌱,0,365,High humidity heat,Budded stumps or seedlings
+Rubber,2,Immature,🌿,365,1825,High N K,Girth development to 50 cm
+Rubber,3,Mature Tapping,🌾,1825,2555,Regular tapping K,Daily or alternate day tapping for latex
+Rice (Short Duration - Kar Season / ADT 36),1,Germination,🌱,0,7,Temperature > 20°C,Seeds germinate in flooded/waterlogged nursery
+Rice (Short Duration - Kar Season / ADT 36),2,Seedling,🌿,7,20,Water availability,Nursery stage; transplanted at 20 days
+Rice (Short Duration - Kar Season / ADT 36),3,Tillering,🌾,20,45,N fertilization,Main productive growth; N top-dress at 30d
+Rice (Short Duration - Kar Season / ADT 36),4,Panicle Initiation,🌾,45,65,Temperature 26-28°C,Critical stage; drought/cold causes yield loss
+Rice (Short Duration - Kar Season / ADT 36),5,Flowering,🌸,65,85,Temperature < 35°C high humidity,Pollen sensitive to heat; 2-3 hrs critical
+Rice (Short Duration - Kar Season / ADT 36),6,Grain Filling,🌾,85,95,Solar radiation,Starch accumulation; maintain water level
+Rice (Short Duration - Kar Season / ADT 36),7,Maturity,🌾,95,105,Low humidity for harvest,Dry field 10-14d before harvest
+Rice (Medium Duration - Thaladi / CO 43),1,Germination,🌱,0,10,Temperature > 20°C,Seeds germinate in flooded/waterlogged nursery
+Rice (Medium Duration - Thaladi / CO 43),2,Seedling,🌿,10,25,Water availability,Nursery stage; transplanted at 25 days
+Rice (Medium Duration - Thaladi / CO 43),3,Tillering,🌾,25,60,N fertilization,Main productive growth
+Rice (Medium Duration - Thaladi / CO 43),4,Panicle Initiation,🌾,60,85,Temperature 26-28°C,Critical stage
+Rice (Medium Duration - Thaladi / CO 43),5,Flowering,🌸,85,105,Temperature < 35°C high humidity,Pollen sensitive to heat
+Rice (Medium Duration - Thaladi / CO 43),6,Grain Filling,🌾,105,120,Solar radiation,Starch accumulation
+Rice (Medium Duration - Thaladi / CO 43),7,Maturity,🌾,120,135,Low humidity for harvest,Dry field 10-14d before harvest
+Rice (Long Duration - Samba / CR 1009),1,Germination,🌱,0,10,Temperature > 20°C,Seeds germinate in flooded/waterlogged nursery
+Rice (Long Duration - Samba / CR 1009),2,Seedling,🌿,10,30,Water availability,Nursery stage; transplanted at 30 days
+Rice (Long Duration - Samba / CR 1009),3,Tillering,🌾,30,80,N fertilization,Main productive growth
+Rice (Long Duration - Samba / CR 1009),4,Panicle Initiation,🌾,80,110,Temperature 26-28°C,Critical stage
+Rice (Long Duration - Samba / CR 1009),5,Flowering,🌸,110,130,Temperature < 35°C high humidity,Pollen sensitive to heat
+Rice (Long Duration - Samba / CR 1009),6,Grain Filling,🌾,130,145,Solar radiation,Starch accumulation
+Rice (Long Duration - Samba / CR 1009),7,Maturity,🌾,145,160,Low humidity for harvest,Dry field 10-14d before harvest
+Cotton (Winter Irrigated - MCU 5),1,Germination,🌱,0,10,Soil temp > 18°C,4-6 days in warm soil
+Cotton (Winter Irrigated - MCU 5),2,Seedling,🌿,10,30,Adequate P,Taproot establishment
+Cotton (Winter Irrigated - MCU 5),3,Squaring,🌾,30,60,N K fertilizer,Square = pinhead bud; fruit initiation
+Cotton (Winter Irrigated - MCU 5),4,Flowering,🌸,60,90,Temperature 25-35°C,Self-pollinated; hot day opening
+Cotton (Winter Irrigated - MCU 5),5,Boll Development,🌾,90,140,High K water,Fiber elongation and secondary thickening
+Cotton (Winter Irrigated - MCU 5),6,Boll Opening,🌾,140,160,Dry warm weather,Stop irrigation 3 weeks before
+Cotton (Winter Irrigated - MCU 5),7,Harvest,🌾,160,170,Dry conditions,Manual or mechanical pick
+Cotton (Rainfed - K11),1,Germination,🌱,0,10,Soil temp > 18°C,4-6 days in warm soil
+Cotton (Rainfed - K11),2,Seedling,🌿,10,25,Adequate P,Taproot establishment
+Cotton (Rainfed - K11),3,Squaring,🌾,25,50,N K fertilizer,Square = pinhead bud; fruit initiation
+Cotton (Rainfed - K11),4,Flowering,🌸,50,80,Temperature 25-35°C,Self-pollinated; hot day opening
+Cotton (Rainfed - K11),5,Boll Development,🌾,80,120,High K water,Fiber elongation and secondary thickening
+Cotton (Rainfed - K11),6,Boll Opening,🌾,120,140,Dry warm weather,Dry down phase
+Cotton (Rainfed - K11),7,Harvest,🌾,140,150,Dry conditions,Manual or mechanical pick
+Groundnut (Rainfed - TMV 7),1,Germination,🌱,0,8,Soil temp > 20°C,Well-prepared seedbed needed
+Groundnut (Rainfed - TMV 7),2,Seedling,🌿,8,20,Adequate Ca,Subsoil Ca critical
+Groundnut (Rainfed - TMV 7),3,Vegetative,🌿,20,40,Adequate P K Ca,Leaf/stem growth
+Groundnut (Rainfed - TMV 7),4,Flowering,🌸,40,55,Temperature 25-30°C,Self-pollination; 40 day period
+Groundnut (Rainfed - TMV 7),5,Pegging,🌾,55,75,Adequate Ca loose soil,Peg penetration into soil
+Groundnut (Rainfed - TMV 7),6,Pod Fill,🌾,75,95,Adequate moisture,Oil accumulation; drought reduces yield
+Groundnut (Rainfed - TMV 7),7,Maturity,🌾,95,105,Dry conditions,Test hull blotch for maturity
+Groundnut (Irrigated - VRI 2),1,Germination,🌱,0,10,Soil temp > 20°C,Well-prepared seedbed needed
+Groundnut (Irrigated - VRI 2),2,Seedling,🌿,10,25,Adequate Ca,Subsoil Ca critical
+Groundnut (Irrigated - VRI 2),3,Vegetative,🌿,25,50,Adequate P K Ca,Leaf/stem growth
+Groundnut (Irrigated - VRI 2),4,Flowering,🌸,50,70,Temperature 25-30°C,Self-pollination; 40 day period
+Groundnut (Irrigated - VRI 2),5,Pegging,🌾,70,90,Adequate Ca loose soil,Peg penetration into soil
+Groundnut (Irrigated - VRI 2),6,Pod Fill,🌾,90,110,Adequate moisture,Oil accumulation; drought reduces yield
+Groundnut (Irrigated - VRI 2),7,Maturity,🌾,110,120,Dry conditions,Test hull blotch for maturity
